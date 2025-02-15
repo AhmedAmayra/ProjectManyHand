@@ -1,8 +1,8 @@
 PALET1:
-    orange : EFB036
-    blue 1 : 3B6790
-    blue 2: 23486A
-    blue 3: 4C7B8B
+    orange : #EFB036
+    blue 1 : #3B6790
+    blue 2: #23486A
+    blue 3: #4C7B8B
 
 PALET2:
     blue : #2B2A4C
