@@ -1,4 +1,6 @@
+/* import font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
 
 * {
     margin: 0;
@@ -8,16 +10,20 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(135deg , rgb(54, 54, 212) , rgb(195, 33, 195));
-    height: auto;
-    padding: 1.5vw;
+    background: linear-gradient(135deg , #EEE2DE , #e2cdc5 );
+    height: 100%;
 }
 
 h2{
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0 1vw;
-    color: rgb(54, 54, 212);
+    color: #B31312;
     text-transform: capitalize;
+}
+
+/* Tnajm tna7eha */
+h2:hover{
+    font-style: italic;
 }
 
 p{
@@ -27,11 +33,13 @@ p{
 
 }
 
+/* El zouz moch wa7da bark */
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 76vw;
+    max-height: 25vw;
     margin: 1.5vw auto;
     background-color: #fff;
     padding: 1.5vw;
@@ -55,6 +63,7 @@ img {
 
 img:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
 }
 
 .content {
@@ -72,4 +81,10 @@ img:hover {
     text-align: center;
     margin-bottom: 1vw;
     box-shadow: 0 0 0.5vw black;
+}
+
+
+#Special-words{
+    text-decoration: underline;
+    color: green;
 }
