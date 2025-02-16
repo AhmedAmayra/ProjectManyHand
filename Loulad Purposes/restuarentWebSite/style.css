@@ -23,7 +23,7 @@ h2{
 
 /* Tnajm tna7eha */
 h2:hover{
-    font-style: italic;
+    /*Mazelt ma 9arrtch chnw n3ml feha*/
 }
 
 p{
@@ -47,10 +47,6 @@ p{
     box-shadow: 0 0 1.5vw rgba(0, 0, 0, 0.3);
     gap: 2vw;
     overflow: auto;
-}
-
-.container.reverse {
-    flex-direction: row-reverse;
 }
 
 img {
