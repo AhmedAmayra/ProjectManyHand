@@ -19,11 +19,12 @@ h2{
     margin: 0 1vw;
     color: #B31312;
     text-transform: capitalize;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Tnajm tna7eha */
 h2:hover{
-    /*Mazelt ma 9arrtch chnw n3ml feha*/
+    transform: translateX(1vw);
 }
 
 p{

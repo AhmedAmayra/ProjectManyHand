@@ -1,60 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+        
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;}
 
-body{
-    font-family: "Poppins", sans-serif;
-    background-color: #B31312;
-}
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #B31312;
+            color: #EEE2DE;
+        }
 
-.container{
-    background-color: #B31312;
-    border-bottom: solid #EEE2DE .6vw;
-}
+        .container {
+            background-color: #B31312;
+            border-bottom: solid #fff .6vw;
+            padding: 1vw 0;
+        }
 
-.selects{
-    width: calc(100% - (.8vw)*2);
-    margin: 0 .8vw;
-    text-align: right;
-}
+        .selects {
+            margin-left: auto;
+            margin: 0 .8vw;
+            text-align: right;
+        }
 
-a{
-    background-color: #EEE2DE;
-    color: #B31312;
-    display: inline-block;
-    width: 18vw;
-    height: 2.5vw;
-    font-size: 1.7vw;
-    text-align: center;
-    text-decoration: none;
-    margin: 1.5vw 0.4vw;
-    text-transform: capitalize;
-    transition: all 0.3s ease-in-out;
-    user-select: none;
-}
+        a {
+            background-color: #fff;
+            color: #B31312;
 
-a:hover{
-    transform: scale(1.05);
-    transform: rotate(4deg);
-}
+            display: inline-block;
 
-.logo{
-    background-color: #EEE2DE;
-    width: 30vw;
-    text-align: center;
-    margin: .8vw;
-    color: #B31312;
-    font-size: 2.5vw;
-    border-radius: 15vw;
-}
+            width: 18vw;
+            height: 2.5vw;
+            
+            font-size: 1.7vw;
+            
+            text-align: center;
+            text-decoration: none;
+            text-transform: capitalize;
 
-iframe{
-    width: 85%;
-    margin: 0 7vw;
-    height: 51vw;
-    overflow: hidden;
-}
+            margin: 1.5vw 0.4vw;
 
+
+            transition: all 0.3s ease-in-out;
+
+            user-select: none;
+
+            border-radius: 0.6vw;
+        }
+
+        a:hover {
+            transform: scale(1.05) rotate(4deg);
+        }
+
+        .logo {
+            background-color: #fff;
+            color: #B31312;
+            
+            width: 25vw;
+            margin: .8vw;
+            
+            text-align: center;
+            
+            font-size: 2.5vw;
+            
+            border-radius: 15vw;
+            
+            padding: 1vw;
+
+            user-select: none;
+
+            transition: all 0.2s ease-in-out;
+        }
+
+        .logo:hover{
+            transform: translateY(1vw) scale(1.04);
+        }
+
+        iframe {
+            width: 86%;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 52vw;
+            border: solid #fff 0.6vw;
+            border-top: none;
+            overflow: hidden;
+
+        
+        }
